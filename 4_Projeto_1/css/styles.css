@@ -37,7 +37,7 @@ html {
 /* Biografia */
 .biograph-container {
     padding: 25px 0;
-    margin: 25 0;
+    margin: 25px 0;
     border-top: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;
 }
@@ -71,7 +71,7 @@ html {
 }
 
 /* imagem bold */
-.image-bold {
+.image-bold  {
     font-weight: bold;
     text-align: center;
 }
