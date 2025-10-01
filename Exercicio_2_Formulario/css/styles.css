@@ -114,6 +114,10 @@ textarea {
     margin-bottom: 35px;
 }
 
+.box-input input[type="file"] {
+    display: block;
+}
+
 .box-input textarea {
     margin-top: 10px;
 }
@@ -134,4 +138,26 @@ textarea {
     background-color: #FFF;
     border-color: #02b635;
     color: #02b635;
+}
+
+.footer {
+    height: 160px;
+    padding: 20px;
+    background-color: #02b635;
+}
+
+.footer h2 {
+    position: relative;
+    right: -103px;
+    top: -33px;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.footer h1 {
+    color: rgb(24, 82, 2);
+}
+
+.footer p {
+    color: #FFF
 }
