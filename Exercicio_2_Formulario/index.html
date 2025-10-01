@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChargePay</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Charge<h2>Pay</h2></h1>
+            <p>Compre seu Carregador</p>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulario</p>
+            </div>
+            <form>
+                <div class="form-body">
+                    <h1 class="form--title">Adquira seu carregador</h1>
+                    <p>Marque as opcionais de preferencia do seu carregador</p>
+                    <div class="info-client">
+                        <p>Dados do Cliente</p>
+                        <div class="box-input">
+                            <label for="name">Nome <span class="required-field">*</span></label>
+                            <input type="text" name="name" id="name" class="block" placeholder="Digite seu nome" minlength="1" maxlength="100" required>
+                        </div>
+                        <div class="box-input">
+                            <label for="email">Email <span class="required-field">*</span></label>
+                            <input type="email" name="email" id="email" class="block" placeholder="Digite seu email" minlength="1" maxlength="80" required>
+                        </div>
+                        <div class="box-input">
+                            <label for="telephone">Telefone <span class="required-field">*</span></label>
+                            <input type="number" name="telephone" id="telephone" class="block" placeholder="Digite seu telefone" minlength="1" maxlength="11" required>
+                        </div>
+                    </div>
+                    <div class="info-car">
+                        <p>Informações do veículo</p>
+                        <div class="box-input">
+                            <label for="brand">Marca <span class="required-field">*</span></label>
+                            <input type="text" name="brand" id="brand" class="block" placeholder="Digite a marca do seu veículo" required>
+                        </div>
+                        <div class="box-input">
+                            <label for="model">Modelo <span class="required-field">*</span></label>
+                            <input type="text" name="model" id="model" class="block" placeholder="Digite o modelo do seu veículo" required>
+                        </div>
+                        <div class="box-input">
+                            <label for="fabrication-year">Ano de Fabricação <span class="required-field">*</span></label>
+                            <input type="date" name="fabrication-year" id="fabrication-year" class="block" required>
+                        </div>
+                        <div class="radio-input">
+                            <p>Tipo de Bateria</p>
+                            <input type="radio" id="small-size" name="battery">
+                            <label for="small-size">Pequeno Porte / Urbano (20 a 40 kWh)</label>
+                            <input type="radio" id="medium-size" name="battery">
+                            <label for="medium-size">Médio Porte / Padrão (50 a 80 kWh)</label>
+                            <input type="radio" id="large-size" name="battery">
+                            <label for="large-size">Grande Porte / Premium (90 a 130+ kWh)</label>
+                        </div>
+                    </div>   
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
