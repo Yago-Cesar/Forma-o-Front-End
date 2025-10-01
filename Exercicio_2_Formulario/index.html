@@ -52,13 +52,22 @@
                         <div class="radio-input">
                             <p>Tipo de Bateria</p>
                             <input type="radio" id="small-size" name="battery">
-                            <label for="small-size">Pequeno Porte / Urbano (20 a 40 kWh)</label>
+                            <label for="small-size">Urbano (20/40 kWh)</label>
                             <input type="radio" id="medium-size" name="battery">
-                            <label for="medium-size">Médio Porte / Padrão (50 a 80 kWh)</label>
+                            <label for="medium-size">Padrão (50/80 kWh)</label>
                             <input type="radio" id="large-size" name="battery">
-                            <label for="large-size">Grande Porte / Premium (90 a 130+ kWh)</label>
+                            <label for="large-size">Premium (90/130+ kWh)</label>
+                        </div>
+                        <div class="box-input">
+                            <label for="mounting-location">Local de Montagem<span class="required-field">*</span></label>
+                            <textarea name="mounting-location" id="mounting-location" required class="block" placeholder="Coloque aonde será feita a instalação do Carregador"></textarea>
+                        </div>
+                        <div class="box-input">
+                            <label for="images">Fotos do Local de Montagem<span class="required-field">*</span></label>
+                            <input type="file" multiple accept="image.jpg, image.png" id="images" name="images" required>
                         </div>
                     </div>   
+                    <input type="submit" value="Enviar" class="btn-submit">
                 </div>
             </form>
         </div>
