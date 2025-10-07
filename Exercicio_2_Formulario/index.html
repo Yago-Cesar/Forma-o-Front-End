@@ -21,7 +21,7 @@
                     <h1 class="form--title">Adquira seu carregador</h1>
                     <p>Marque as opcionais de preferencia do seu carregador</p>
                     <div class="info-client">
-                        <p>Dados do Cliente</p>
+                        <h3>Dados do Cliente</h3>
                         <div class="box-input">
                             <label for="name">Nome <span class="required-field">*</span></label>
                             <input type="text" name="name" id="name" class="block" placeholder="Digite seu nome" minlength="1" maxlength="100" required>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div class="info-car">
-                        <p>Informações do veículo</p>
+                        <h3>Informações do veículo</h3>
                         <div class="box-input">
                             <label for="brand">Marca <span class="required-field">*</span></label>
                             <input type="text" name="brand" id="brand" class="block" placeholder="Digite a marca do seu veículo" required>
@@ -52,15 +52,30 @@
                         <div class="radio-input">
                             <p>Tipo de Bateria</p>
                             <input type="radio" id="small-size" name="battery">
-                            <label for="small-size">Pequeno Porte / Urbano (20 a 40 kWh)</label>
+                            <label for="small-size">Urbano (20/40 kWh)</label>
                             <input type="radio" id="medium-size" name="battery">
-                            <label for="medium-size">Médio Porte / Padrão (50 a 80 kWh)</label>
+                            <label for="medium-size">Padrão (50/80 kWh)</label>
                             <input type="radio" id="large-size" name="battery">
-                            <label for="large-size">Grande Porte / Premium (90 a 130+ kWh)</label>
+                            <label for="large-size">Premium (90/130+ kWh)</label>
+                        </div>
+                        <div class="box-input">
+                            <label for="mounting-location">Local de Montagem<span class="required-field">*</span></label>
+                            <textarea name="mounting-location" id="mounting-location" required class="block" placeholder="Coloque aonde será feita a instalação do Carregador"></textarea>
+                        </div>
+                        <div class="box-input">
+                            <label for="images">Fotos do Local de Montagem<span class="required-field">*</span></label>
+                            <input type="file" multiple accept="image.jpg, image.png" id="images" name="images" required>
                         </div>
                     </div>   
+                    <input type="submit" value="Enviar" class="btn-submit">
                 </div>
             </form>
+        </div>
+        <div class="footer">
+            <h1>Charge<h2>Pay</h2></h1>
+            <h3>Suporte Via</h3>
+            <p>Whatsapp: (22)9999-9999</p>
+            <p>Email: chargepay@gmail.com</p>
         </div>
     </div>
 </body>
